@@ -8,3 +8,9 @@ Our website for the lab
 
 - [@sobrepenaKenneth](https://github.com/SobrepenaKenneth)
 
+
+## FAQ
+
+#### Sino yung mag aasign
+
+Si Leader tsaka si co-leader
