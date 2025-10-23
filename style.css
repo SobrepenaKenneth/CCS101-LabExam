@@ -44,7 +44,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background: url('Jeff.gif') center/cover no-repeat;
+    background: url('images/Jeff.gif') center/cover no-repeat;
     color: white;
     text-align: center;
     padding: 8rem 2rem;
