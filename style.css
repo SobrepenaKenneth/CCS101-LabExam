@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fffaf3;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: #4b2e05;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd47f;
+}
+
+/* Hero Section */
+.hero {
+    background: url('Jeff.gif') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 8rem 2rem;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+}
+
+.hero-content p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: #ffd47f;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 1.5rem;
+}
+
+button:hover {
+    background-color: #ffb84d;
+    transform: scale(1.1);
+}
+
+/* Menu Section */
+.menu {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.menu h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 250px;
+    padding: 1rem;
+    transition: transform 0.3s;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.item:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    background-color: #4b2e05;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+}
