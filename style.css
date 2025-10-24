@@ -42,9 +42,18 @@ nav ul li a:hover {
     color: #ffd47f;
 }
 
+img {
+
+max-width: 250px;
+max-height: 200px;
+min-width: 200px;
+min-height: 200px;
+}
+
 /* Hero Section */
 .hero {
-    background: url('images/Jeff.gif') center/cover no-repeat;
+    background: url('Jeff.gif') center/cover no-repeat;
+    background-attachment: fixed;
     color: white;
     text-align: center;
     padding: 8rem 2rem;
@@ -97,9 +106,38 @@ button:hover {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    width: 250px;
     padding: 1rem;
     transition: transform 0.3s;
+     width: 250px;
+     height: 50%;
+     min-width: 250px;
+    
+}
+
+.details {
+display: none;
+}
+
+
+.item:hover .details {
+display: block;
+text-align: center;
+opacity: 1;
+padding: 10px;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+}
+	
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 .item img {
@@ -108,7 +146,16 @@ button:hover {
 }
 
 .item:hover {
-    transform: translateY(-10px);
+    transform: scale(1.5);
+    transform: translateY(10px);
+}
+
+.badge {
+  background-color: red;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 footer {
@@ -118,3 +165,5 @@ footer {
     padding: 2rem 0;
     font-size: 0.9rem;
 }
+
+/*Menu Page */
