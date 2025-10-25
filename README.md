@@ -7,7 +7,7 @@ Our website for the lab
 ## Authors
 
 - [@sobrepenaKenneth](https://github.com/SobrepenaKenneth)
-
+- [Rick Astley](https://youtu.be/dQw4w9WgXcQ?si=M6JRkaGOoKsG_ozJ)
 
 ## NOTES
 
@@ -18,9 +18,8 @@ Our website for the lab
  - ReviewStyle.css - contains all Styles related to the custom review page.
 	
 	This is to avoid possible conflicts and errors when commiting changes to the main branch.
-	
-											- Paz
 
+																				- Paz
 #### Sino yung mag aasign
 
 Si Leader tsaka si co-leader
