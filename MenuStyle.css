@@ -16,6 +16,8 @@
     flex-wrap: wrap;
 }
 
+/* Hoverable Items */
+
 .item {
     background-color: #fff;
     border-radius: 10px;
@@ -63,6 +65,7 @@ padding: 10px;
     transform: scale(1.5);
     transform: translateY(10px);
 }
+
 
 .badge {
   background-color: red;
