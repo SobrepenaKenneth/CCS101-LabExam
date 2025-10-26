@@ -143,14 +143,13 @@ img {
     visibility: hidden;
 }
 
-/* Reveal on hover */
 .menu .item:hover .order-btn {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
 }
 
-/* Button hover effect */
+
 .order-btn:hover {
     background-color: #ffb84d;
     transform: scale(1.05);
