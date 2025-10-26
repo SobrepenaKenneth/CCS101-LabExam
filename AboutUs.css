@@ -43,11 +43,12 @@ nav ul li a:hover {
 }
 
 img {
-
-max-width: 250px;
-max-height: 200px;
-min-width: 200px;
-min-height: 200px;
+    max-width: 250px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    display: block;
+    object-fit: cover;
 }
 
 /* Hero Section */
@@ -164,6 +165,7 @@ footer {
     margin: 0.25rem 0 0;
     color: #6b6b6b;
     font-size: 0.9rem;
+    text-align: center;
 }
 
 @media (max-width: 540px) {
